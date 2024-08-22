@@ -1,12 +1,10 @@
-let instance;
-
 class Counter {
   constructor() {
-    if (instance) {
-      throw new Error("You can create only one instance!");
+    if (Counter.instance) {
+      return Counter.instance;
     }
     this.counter = 0;
-    instance = this;
+    Counter.instance = this;
   }
 
   getCount() {

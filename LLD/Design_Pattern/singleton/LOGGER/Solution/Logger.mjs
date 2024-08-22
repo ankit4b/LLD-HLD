@@ -1,13 +1,10 @@
-let instance;
-
 class Logger {
   constructor() {
-    console.log("====>>> ", Logger.instance);
-    if (instance) {
-      throw new Error("You are not allowed to new more than one instance");
+    if (Logger.instance) {
+      return Logger.instance;
     }
     this.logs = [];
-    instance = this;
+    Logger.instance = this;
   }
 
   log(message) {
