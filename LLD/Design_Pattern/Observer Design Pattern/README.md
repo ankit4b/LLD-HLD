@@ -1,4 +1,4 @@
-# Observer Pattern
+# Observer Pattern (Behavioral DP)
 
 - With the observer pattern, we can subscribe certain objects, the observers, to another object, called the observable. Whenever an event occurs, the observable notifies all its observers!
 
