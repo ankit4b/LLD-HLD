@@ -6,7 +6,7 @@
 
 - (Generally speaking, a proxy means a stand-in for someone else. Instead of speaking to that person directly, you’ll speak to the proxy person who will represent the person you were trying to reach. The same happens in JavaScript: instead of interacting with the target object directly, we’ll interact with the Proxy object.)
 
-## Real-Time Use-case :
+## Use-cases :
 
 1. **Logging:** involves tracking and recording interactions with an object, such as when properties are accessed or modified. -For debugging, monitoring
 
